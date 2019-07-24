@@ -79,19 +79,3 @@ Example :
         
 
 ```
-
-
-Updated
-------
-v 0.0.1 - Uploaded
-
-
-Author
-------
-Chandrabhan Aher - @chandrabhanaher on GitHub, chandrabhanaher@gmail.com
-
-
-Disclaimer
----------
-This is not an official Facebook Products.
-
