@@ -4,29 +4,6 @@ plugins {
 }
 apply plugin: 'com.android.library'
 
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'fb-android-videoplayer'
-
-    publishedGroupId = 'com.ramazeta'
-    libraryName = 'FB Android Video Player'
-    artifact = 'fb-android-videoplayer'
-
-    libraryDescription = 'An Android WebView helper to play facebook embedded videos'
-
-    siteUrl = 'https://github.com/zeattacker/fb-android-videoplayer'
-    gitUrl = 'https://github.com/nuuneoi/fb-android-videoplayer.git'
-
-    libraryVersion = '0.0.2'
-
-    developerId = 'zeattacker'
-    developerName = 'Rama Zeta'
-    developerEmail = 'ramazeta1997@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
 
 android {
     compileSdkVersion 24
