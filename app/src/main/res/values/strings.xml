@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">FbVideoPlayer</string>
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="pref_imageQuality">Image quality</string>
+    <string name="pref_imageQuality_summary">Set the image quality. Higher quality results in (much) bigger PDF sizes.</string>
+
+    <string-array name="listArrayImage">
+        <item>High (100%)</item>
+        <item>Normal (80%)</item>
+        <item>Low (60%)</item>
+    </string-array>
+
+    <string-array name="listValuesImage">
+        <item>100</item>
+        <item>80</item>
+        <item>60</item>
+    </string-array>
+    <string name="app_portrait">Portrait</string>
+    <string name="app_landscape">Landscape</string>
+
+
+    <string name="pref_backup">Backup</string>
+    <string name="pref_backup_summary">Do you want to backup pdf files before manipulating, e.g. deleting or adding pages?</string>
+    <string name="action_openSettings">App info</string>
+    <string name="action_openSettings_summary">Open via the system settings the app info of the app. There you can,
+        depending on your Android version, manage several things (Storage, network traffic, permissions, …).</string>
+    <string name="pref_folder">Custom directory</string>
+    <string name="pref_folder_hint">Format: \"/Download/PDF/\"</string>
+    <string name="pref_folder_summary">Let empty to use the default directory (\"/Android/data/de.baumann.pdf/\"). Enter the path
+        to your desired folder on your sdcard. The path must begin and end with \"/\" like \"/Download/PDF/\".
+        If the desired directory does not exist, it will be generated automatically.</string>
+    <string name="settings_prefApp">About the app</string>
+    <string name="settings_prefDir">App directory</string>
+    <string name="settings_prefEnc">Encryption</string>
+    <string name="settings_prefMeta">Metadata</string>
+
+    <string name="about_settings">… and other things</string>
+    <string name="about_settings_text">Changelog, help, license, used libraries and more.</string>
+
+
+
+
+    <string name="toast_yes">OK</string>
+    <string name="toast_cancel">Cancel</string>
+    <string name="toast_successfully">PDF successfully created.</string>
+    <string name="toast_wait">Images successfully created. Open folder?</string>
+
+    <string name="toast_open">Open?</string>
+    <string name="toast_install_app">Please install an app to perform action.</string>
+    <string name="toast_noImage">Please choose an image.</string>
+    <string name="toast_noPDF">Choose or create a PDF file.</string>
+    <string name="toast_noText">Please enter text.</string>
+    <string name="toast_savedImage">Please wait. Saving image.</string>
+    <string name="toast_notAgain">Do not show again</string>
+    <string name="toast_extension">No supported file extension</string>
+    <string name="toast_edited">Image was edited. Saving?</string>
+    <string name="toast_no">No</string>
+    <string name="toast_remove_confirmation">Entry will be removed. OK?</string>
+    <string name="toast_directory">Can\'t open Directory.</string>
+    <string name="toast_files">No files in directory.</string>
+    <string name="toast_picFile">Please choose image file.</string>
+    <string name="toast_pdfFile">Please choose PDF file.</string>
+    <string name="toast_permission">Grant permission. Open settings?</string>
+    <string name="toast_successfully_not">An error occurred.</string>
+</resources>
